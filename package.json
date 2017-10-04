@@ -1,0 +1,27 @@
+{
+  "name": "wsl-extendend-conversation",
+  "version": "0.0.1",
+  "description": "a generic service to consolidate requests to WCS, NLU, and TA",
+  "main": "action.js",
+  "scripts": {
+    "test": "jasmine",
+    "lint": "eslint .",
+    "lint-fix": "eslint . --fix",
+    "pass": "npm run test && npm run lint && echo 'all specs passing'"
+  },
+  "author": "Paul Thoresen (pthoresen@us.ibm.com)",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "watson-developer-cloud": "^2.39.2"
+  },
+  "devDependencies": {
+    "eslint": "^4.8.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jasmine": "^2.8.5",
+    "eslint-plugin-node": "^5.2.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "jasmine": "^2.8.0"
+  }
+}
